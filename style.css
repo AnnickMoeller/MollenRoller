@@ -97,9 +97,8 @@ h2{
   margin-bottom:20px;
 }
 .winkelbild{
-  transform:scale(1.15);
-  transform-origin:center;
-  margin-top:-10px;
+  transform:none;
+  margin-top:0;
 }
 
 .card-title{
