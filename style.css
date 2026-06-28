@@ -91,17 +91,16 @@ h2{
   border-color:#aaa;
 }
 
-.card img{
-  position:relative;
+/* FIXED IMAGE AREA */
+.card > img{
   width:100%;
   height:140px;
   object-fit:contain;
-}
-.winkelbild{
-  transform:none;
-  margin-top:0;
+  display:block;
+  flex-shrink:0;
 }
 
+/* TEXT */
 .card-title{
   margin-top:auto;
   font-size:16px;
@@ -112,11 +111,6 @@ h2{
   margin-top:6px;
   font-size:14px;
   color:#666;
-}
-.card::before{
-  content:"";
-  display:block;
-  height:140px;
 }
 
 /* INFO BOX */
