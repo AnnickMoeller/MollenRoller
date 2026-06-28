@@ -92,10 +92,10 @@ h2{
 }
 
 .card img{
+  position:relative;
   width:100%;
   height:140px;
   object-fit:contain;
-  display:block;
 }
 .winkelbild{
   transform:none;
