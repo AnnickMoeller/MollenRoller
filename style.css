@@ -112,7 +112,7 @@ h2{
   height:180px;
 }
 .winkelbild{
-  height:180px !important;
+  transform: scale(1.2);
   object-fit:contain;
 }
 
