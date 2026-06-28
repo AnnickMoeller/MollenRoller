@@ -1,67 +1,81 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mollen-Roller</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 60px auto;
-      line-height: 1.6;
-    }
 
-    h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    .subtitle {
-      color: #555;
-      margin-bottom: 30px;
-    }
-
-    .box {
-      padding: 20px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-
-    a {
-      display: inline-block;
-      margin: 8px 0;
-      color: #000;
-      text-decoration: underline;
-    }
-
-    a:hover {
-      opacity: 0.6;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1>Mollen-Roller</h1>
-  <div class="subtitle">
-    Modulares System zur Mobilisierung von Getränkekästen mittels 3D-gedruckter Verbindungselemente und Standardkomponenten.
-  </div>
+  <!-- HERO -->
+  <header class="hero">
+    <img class="logo" src="Mollenroller Logo.svg" alt="Mollenroller Logo">
 
-  <div class="box">
+    <h1>Mollen-Roller</h1>
+    <p class="subtitle">
+      Modulares Transportsystem zur Erweiterung von Getränkekästen durch 3D-gedruckte Verbindungselemente und Standardkomponenten.
+    </p>
+
+    <img class="hero-img" src="Mollenroller Hero.svg" alt="Mollenroller Hero">
+  </header>
+
+  <!-- DOWNLOADS -->
+  <section class="section">
     <h2>Downloads</h2>
 
-    <a href="Winkelmodule.stl" download>Winkelmodule (STL)</a><br>
-    <a href="Tragegriff.stl" download>Tragegriff (STL)</a><br>
-    <a href="Anleitung.pdf" download>Anleitung (PDF)</a>
-  </div>
+    <div class="grid">
 
-  <div class="box">
-    <h2>Hinweis</h2>
-    <p>
-      Es werden zusätzlich vier handelsübliche Rollen (durchmesser 50mm mit M10 gewindestift) und ein Seil (Durchmesser 8mm, Länge ca. 2m) benötigt.
-    </p>
-  </div>
+      <a class="card" href="Winkelmodule.stl" download>
+        <img src="Winkelmodul.svg" alt="">
+        <div class="card-title">Winkelmodul</div>
+        <div class="card-action">STL herunterladen →</div>
+      </a>
 
+      <a class="card" href="Tragegriff.stl" download>
+        <img src="Tragegriff.svg" alt="">
+        <div class="card-title">Tragegriff</div>
+        <div class="card-action">STL herunterladen →</div>
+      </a>
+
+      <a class="card" href="Anleitung.pdf" download>
+        <img src="Seil.svg" alt="">
+        <div class="card-title">Anleitung</div>
+        <div class="card-action">PDF herunterladen →</div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- MATERIAL -->
+  <section class="section">
+    <h2>Komponenten</h2>
+
+    <div class="grid small">
+
+      <div class="info">
+        <img src="Rolle.svg" alt="">
+        <p><strong>4× Rollen</strong><br>Ø 50 mm, M10 Gewindestift</p>
+      </div>
+
+      <div class="info">
+        <img src="Seil.svg" alt="">
+        <p><strong>Seil</strong><br>Ø 8 mm, ca. 2 m</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    Open design system · Mollen-Roller · 2026
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
