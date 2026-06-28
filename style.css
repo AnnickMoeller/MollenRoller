@@ -112,7 +112,8 @@ h2{
   height:180px;
 }
 .winkelbild{
-  transform:scale(1.2);
+  height:180px !important;
+  object-fit:contain;
 }
 
 .card-title{
