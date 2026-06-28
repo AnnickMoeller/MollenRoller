@@ -1,0 +1,130 @@
+body{
+  margin:0;
+  font-family:"IBM Plex Sans", sans-serif;
+  background:#F6F5F2;
+  color:#111;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:80px 20px 40px;
+}
+
+.logo{
+  width:140px;
+  margin-bottom:20px;
+}
+
+h1{
+  font-size:42px;
+  font-weight:500;
+  margin:10px 0;
+  letter-spacing:-0.5px;
+}
+
+.subtitle{
+  max-width:600px;
+  margin:0 auto;
+  color:#444;
+  font-size:16px;
+  line-height:1.6;
+}
+
+.hero-img{
+  width:100%;
+  max-width:900px;
+  margin-top:40px;
+}
+
+/* SECTIONS */
+.section{
+  max-width:1000px;
+  margin:0 auto;
+  padding:60px 20px;
+}
+
+h2{
+  font-size:18px;
+  font-weight:500;
+  margin-bottom:20px;
+  color:#222;
+  border-bottom:1px solid #ddd;
+  padding-bottom:10px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.grid.small{
+  grid-template-columns:repeat(2,1fr);
+}
+
+/* CARD */
+.card{
+  display:block;
+  padding:20px;
+  border:1px solid #ddd;
+  text-decoration:none;
+  color:#111;
+  transition:all 0.25s ease;
+}
+
+.card img{
+  width:100%;
+  height:120px;
+  object-fit:contain;
+  margin-bottom:10px;
+}
+
+.card-title{
+  font-weight:500;
+}
+
+.card-action{
+  margin-top:8px;
+  font-size:14px;
+  color:#666;
+}
+
+.card:hover{
+  transform:translateY(-3px);
+  border-color:#999;
+}
+
+/* INFO */
+.info{
+  padding:20px;
+  border:1px solid #ddd;
+  display:flex;
+  gap:15px;
+  align-items:center;
+}
+
+.info img{
+  width:60px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:40px;
+  font-size:12px;
+  color:#777;
+  border-top:1px solid #ddd;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  h1{
+    font-size:32px;
+  }
+}
