@@ -1,5 +1,3 @@
-// kleine Micro-Interaktion (optional, aber macht es "lebendig")
-
 document.querySelectorAll(".card").forEach(card => {
   card.addEventListener("mousemove", () => {
     card.style.transition = "transform 0.15s ease";
