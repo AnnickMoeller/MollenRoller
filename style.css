@@ -136,3 +136,22 @@ footer{
   color:#777;
   border-top:1px solid #e5e5e5;
 }
+
+/* MOBILE */
+@media (max-width:900px){
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .grid--2{
+    grid-template-columns:1fr;
+  }
+
+  .info{
+    max-width:420px;
+    width:100%;
+    margin:0 auto;
+  }
+
+}
