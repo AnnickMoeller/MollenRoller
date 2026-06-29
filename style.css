@@ -136,6 +136,10 @@ footer{
   color:#777;
   border-top:1px solid #e5e5e5;
 }
+<footer>
+  <p>Open design system · by Annick Möller · 2026</p>
+  <p>Contact: an.moeller@udk-berlin.de</p>
+</footer>
 
 /* MOBILE */
 @media (max-width:900px){
